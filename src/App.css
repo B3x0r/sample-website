@@ -1,0 +1,57 @@
+/* colors from https://icolorpalette.com/5d3766_7a6d96_978fa9_c4aed2_d4cfd5
+Voodoo Dark Purple-logo #5D3766
+Gray Amethyst Smoke #978FA9
+Lavender Gray #C4AED2
+Gray Suit-logo #D4CFD5
+darker gray #605662
+*/
+* {
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 25vmin;
+  pointer-events: none;
+}
+
+body {
+  background: #D4CFD5;
+  font-family: Helvetica, sans-serif;
+}
+
+p {
+  color: #605662;
+  font-size: .8em;
+  margin-left: 3em;
+  margin-right: 3em;
+
+}
+
+.App-header {
+  background-color: #D4CFD5;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1.1vmin);
+  color: #5D3766;
+}
+
+.App-link {
+  color: #978FA9;
+  font-size: 1em;
+}
+
+.navbar {
+  background-color: #5D3766;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-bar-home {
+  justify-content: start;
+}
