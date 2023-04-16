@@ -8,6 +8,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+      </header>
+      <body>
         <h3>Welcome to Grise Consulting!</h3>
         <p className="intro-text">
           Toffee topping danish brownie ice cream jujubes tootsie roll wafer
@@ -20,19 +22,11 @@ function App() {
           tiramisu. Gingerbread jujubes biscuit gummi bears liquorice bonbon
           donut.
         </p>
-        <div className="App-Calendly">
+        <div className="Calendly">
           Ready to schedule?
-          <InlineWidget url="calendly.com/stephaniegrise" />
+          <InlineWidget url="https://calendly.com/stephaniegrise" />
         </div>
-      </header>
-      <Container>
-        <Heading>Social Media</Heading>
-          <Link href="https://www.instagram.com/steph.grise/?hl=en">
-            <i className="fab fa-instagram">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </i>
-          </Link>
-      </Container>
+      </body>
     </div>
   );
 }

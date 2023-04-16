@@ -13,7 +13,7 @@ darker gray #605662
 }
 
 .App-logo {
-  height: 25vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -32,18 +32,21 @@ p {
 
 .App-header {
   background-color: #D4CFD5;
-  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 1.1vmin);
   color: #5D3766;
 }
 
 .App-link {
   color: #978FA9;
   font-size: 1em;
+}
+
+.Calendly {
+  height: 900px;
+  padding-top: 3px;
 }
 
 .navbar {
