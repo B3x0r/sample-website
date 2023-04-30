@@ -8,12 +8,20 @@ darker gray #605662
 * {
   box-sizing: border-box;
 }
-.App {
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
   text-align: center;
 }
 
+.content-wrap {
+  flex:1;
+}
+
 .App-logo {
-  height: 20vmin;
+  height: 15vmin;
   pointer-events: none;
 }
 
@@ -45,8 +53,11 @@ p {
 }
 
 .Calendly {
-  height: 900px;
   padding-top: 3px;
+}
+
+element.style  {
+  height: 730px;
 }
 
 .navbar {
@@ -58,3 +69,14 @@ p {
 .nav-bar-home {
   justify-content: start;
 }
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 20vh;
+}
+
+.content-wrap {
+  flex: 1;
+}
+

@@ -1,0 +1,62 @@
+.main-footer {
+  width: 100%;
+  display: flex;
+  position: relative;
+  bottom: 0;
+  background-color: #5D3766;
+  color: #D4CFD5;
+  justify-content: center!important;
+  text-align: center;
+} 
+
+.footer-top-row {
+  flex-direction: row;
+  padding: 2px;
+  color: white;
+  margin-bottom: 1px;
+  font-size: 1.5rem;
+}
+
+.footer-bottom-row {
+  flex-direction: row;
+  padding: 2px;
+  color: white;
+  margin-bottom: 1px;
+  font-size: 1.5rem;
+}
+
+.contact i{
+  padding: 5px;
+  font-size: 1.25 rem;
+}
+
+.contact ai{
+  text-decoration: none;
+  font-size: 2rem;
+  color: #978FA9;
+}
+
+.socials a{
+  margin: 10px;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+/* so sighted users will just see icon, but screenreaders will hear the info */
+.footer-info-right span{
+  height: 1px;
+  width: 1px;
+  flex: 1;
+  position: absolute;
+  overflow: hidden;
+  top: -10px;
+}
+
+.footer-info-left span{
+  height: 1px;
+  width: 1px;
+  flex: 1;
+}
