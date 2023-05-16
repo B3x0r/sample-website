@@ -11,22 +11,14 @@ function App() {
       <div className="content-wrap">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
+          <h3>Grise Consulting</h3>
         </header>
         <body>
-          <h3>Welcome to Grise Consulting!</h3>
           <p className="intro-text">
-            Toffee topping danish brownie ice cream jujubes tootsie roll wafer
-            liquorice. Lemon drops bear claw chupa chups jelly carrot cake candy.
-            Sweet roll cupcake donut bear claw jelly-o tootsie roll. Gummi bears
-            liquorice gummi bears cheesecake biscuit powder sugar plum ice cream.
-            Candy canes topping bonbon jelly beans wafer. Caramels cupcake bear
-            claw sugar plum lollipop marzipan sugar plum cotton candy. Sweet roll
-            brownie sesame snaps gummi bears marzipan shortbread jujubes bonbon
-            tiramisu. Gingerbread jujubes biscuit gummi bears liquorice bonbon
-            donut.
+          Stephanie Grise has spent nearly 20 years developing a reputation as a critical thought partner with deep legal and business acumen, a commitment to people and community, and a love for laughing. The philosophy behind Stephanie's work is simple: listen radically; inquire deliberately; and center, care for, and celebrate others. And with this philosophy at the forefront, Stephanie counsels businesses on how to do meaningful work, equitably.
           </p>
           <div className="Calendly">
-            Ready to schedule?
+            Want to book a consultation? Schedule here:
             <InlineWidget url="https://calendly.com/stephaniegrise" styles={{minWidth:'320px',height:'785px'}}/>
           </div>
         </body>

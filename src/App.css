@@ -1,8 +1,9 @@
 /* colors from https://icolorpalette.com/5d3766_7a6d96_978fa9_c4aed2_d4cfd5
-Voodoo Dark Purple-logo #5D3766
+Voodoo Dark Purple #5D3766
+Gray-logo #4e4952
 Gray Amethyst Smoke #978FA9
 Lavender Gray #C4AED2
-Gray Suit-logo #D4CFD5
+Light Gray-background #D3D2D4
 darker gray #605662
 */
 * {
@@ -26,8 +27,8 @@ darker gray #605662
 }
 
 body {
-  background: #D4CFD5;
-  font-family: Helvetica, sans-serif;
+  background: #D3D2D4;
+  font-family: "Open Sans";
 }
 
 p {
@@ -39,12 +40,12 @@ p {
 }
 
 .App-header {
-  background-color: #D4CFD5;
+  background-color: #D3D2D4;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #5D3766;
+  color: #4e4952;
 }
 
 .App-link {
@@ -53,6 +54,7 @@ p {
 }
 
 .Calendly {
+  height: 900px;
   padding-top: 3px;
 }
 
