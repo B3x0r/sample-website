@@ -81,7 +81,7 @@ function App() {
               Want to book a consultation? Schedule here:
               <InlineWidget
                 url="https://calendly.com/stephaniegrise"
-                styles={{ minWidth: "320px", height: "785px" }}
+                styles={{ minWidth: "320px", height: "950px" }}
               />
             </div>
             <div className="text-email">
