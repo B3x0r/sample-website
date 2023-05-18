@@ -2,6 +2,8 @@
   "name": "consulting",
   "version": "0.1.0",
   "private": true,
+  "main": "App.js",
+  "homepage": ".",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
