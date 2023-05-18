@@ -1,0 +1,140 @@
+/* colors from https://icolorpalette.com/5d3766_7a6d96_978fa9_c4aed2_d4cfd5
+Voodoo Dark Purple #5D3766
+Gray-logo,text #4e4952
+Gray Amethyst Smoke-background #978FA9
+Lavender Gray #C4AED2
+Light Gray- #D3D2D4
+darker gray #605662
+*/
+* {
+  box-sizing: border-box;
+}
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  text-align: center;
+}
+
+.content-wrap {
+  flex:1;
+}
+
+.App-logo {
+  height: 15vmin;
+  pointer-events: none;
+}
+
+body {
+  $background-color: #978FA9;
+  $color: #4e4952;
+  $font-family: "Open Sans";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font-size: .8em;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.App-header {
+  $background-color: #978FA9;
+  $color: #4e4952;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-link {
+  color: #978FA9;
+  font-size: 1em;
+}
+
+.Calendly {
+  height: 900px;
+  padding-top: 3px;
+}
+
+element.style  {
+  height: 730px;
+}
+
+/* The flip card container - the width and height can be changed. The border can be added to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card-outer {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin: 25px 0;
+
+/*  &.focus-trigger:focus {
+    outline: 5px solid #f1f1f1;
+    outline-offset: 5px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect
+  }
+
+
+/* This container is needed to position the front and back side */
+  .flip-card-inner {
+    $text-decoration: none;
+    $font-size: 1em;
+    transform-style: preserve-3d;
+    transition: .7s linear .1s;
+    position: relative;
+    width: inherit;
+    height: inherit;
+    text-align: center;
+
+
+    &.hover-trigger:hover {
+      transform: rotateY(180deg);
+    }
+
+    /* Do an horizontal flip when you move the mouse over the flip box container */
+    .showBack {
+      transform: rotateY(180deg);
+    }
+
+  .card {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    &.front {
+      transform: rotateY(0);
+      background-color: #4e4952;
+      color:#f1f1f1;
+    }
+
+    &.back {
+      transform: rotateY(180deg);
+      background-color: #f1f1f1;
+      color: #4e4952;
+    }
+  }
+}
+}
+
+/*email envelope icon-email */
+.icon-email a{
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* so sighted users will just see icon, but screenreaders will hear the info */
+.icon-email span{
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  bottom: -10px;
+}
