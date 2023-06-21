@@ -10,32 +10,18 @@ function FlipCard({ card }) {
     }
   }
 
-  function handleFocus() {
-    if (card.variant === "focus") {
-      setShowBack(true);
-    }
-  }
-
-  function handleBlur() {
-    if (card.variant === "focus") {
-      setShowBack(false);
-    }
-  }
-
   return (
     <div
       tabIndex={card.id}
       className={cn("flip-card-outer", {
-        "focus-trigger": card.variant === "focus",
+        "click-trigger": card.variant === "click",
       })}
       onClick={handleClick}
-      onFocus={handleFocus}
-      onBlur={handleBlur}
     >
       <div
         className={cn("flip-card-inner", {
           showBack,
-          "hover-trigger": card.variant === "hover",
+          "click-trigger": card.variant === "click",
         })}
       >
         <div className="card front">

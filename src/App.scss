@@ -18,7 +18,7 @@ darker gray #605662
 }
 
 .content-wrap {
-  flex:1;
+  flex: 1;
 }
 
 .App-logo {
@@ -40,6 +40,12 @@ p {
   margin-right: 3em;
 }
 
+.intro-text {
+  max-width: 950px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
 .App-header {
   $background-color: #978FA9;
   $color: #4e4952;
@@ -59,8 +65,28 @@ p {
   padding-top: 3px;
 }
 
-element.style  {
-  height: 730px;
+.about-row {
+  margin: 25px 0;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.profile {
+  max-width: 300px;
+  flex: 1;
+  padding: 20px;
+  align-items: flex-start;
+}
+
+.about-group-text {
+  max-width: 600px;
+  flex: 3;
+  padding: 20px;
+  align-items: flex-end;
 }
 
 /* The flip card container - the width and height can be changed. The border can be added to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
@@ -90,13 +116,12 @@ element.style  {
     height: inherit;
     text-align: center;
 
-
-    &.hover-trigger:hover {
-      transform: rotateY(180deg);
-    }
+    // &.click-trigger:click {
+    //   transform: rotateY(180deg);
+    // }
 
     /* Do an horizontal flip when you move the mouse over the flip box container */
-    .showBack {
+    &.showBack {
       transform: rotateY(180deg);
     }
 
@@ -105,6 +130,7 @@ element.style  {
     position: absolute;
     top: 0;
     left: 0;
+    padding: 0 !important;
     width: 100%;
     height: 100%;
 
@@ -139,4 +165,8 @@ element.style  {
   position: absolute;
   overflow: hidden;
   bottom: -10px;
+}
+
+.bottom-text{
+  padding-top: 4em;
 }
